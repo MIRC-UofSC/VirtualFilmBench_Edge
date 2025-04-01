@@ -1,0 +1,120 @@
+{
+    "os": "Linux-6.5.13-7-MANJARO-x86_64-with-glibc2.39",
+    "python": "3.12.3",
+    "heartbeatAt": "2024-06-13T00:47:07.262515",
+    "startedAt": "2024-06-13T00:47:05.026531",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--workers",
+        "8",
+        "--device",
+        "0",
+        "--batch-size",
+        "16",
+        "--data",
+        "../Dataset/data.yaml",
+        "--img",
+        "1280",
+        "1280",
+        "--cfg",
+        "cfg/training/yolov7-tiny.yaml",
+        "--weights",
+        "yolov7-w6_training.pt",
+        "--name",
+        "yolo7-13",
+        "--hyp",
+        "data/hyp.scratch.tiny.yaml"
+    ],
+    "state": "running",
+    "program": "/run/media/th/Vault-Lab/MIRC/_Edge-Info_Model_yolov7/train_aux.py",
+    "codePathLocal": "train_aux.py",
+    "codePath": "train_aux.py",
+    "git": {
+        "remote": "https://github.com/WongKinYiu/yolov7.git",
+        "commit": "84932d70fb9e2932d0a70e4a1f02a1d6dd1dd6ca"
+    },
+    "email": "deja28.14@gmail.com",
+    "root": "/run/media/th/Vault-Lab/MIRC/_Edge-Info_Model_yolov7",
+    "host": "Lab-77",
+    "username": "th",
+    "executable": "/home/th/.venv/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3624.086416666667,
+        "min": 400.0,
+        "max": 4464.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3558.119,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 400.0,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 4019.885,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 3550.919,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 3936.431,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 4441.128,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 4088.565,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 4375.118,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 3552.346,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 3552.346,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 3738.976,
+            "min": 400.0,
+            "max": 4464.0
+        },
+        {
+            "current": 4275.204,
+            "min": 400.0,
+            "max": 4464.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 365.39579010009766,
+            "used": 252.81999969482422
+        }
+    },
+    "memory": {
+        "total": 42.999488830566406
+    }
+}
