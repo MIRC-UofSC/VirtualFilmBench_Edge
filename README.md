@@ -16,21 +16,33 @@ pip install -r requirements.txt  # install
 ```
 
 or
+```bash
 conda env create -f environment.yml
 conda activate virtualfilmbench_edge
+```
 
 </details>
 
 
 
 <details open>
-<summary>Inference with detect_video.py</summary>
-
-python detect_video.py --weights [weight file] --source [video] --save-txt
+<summary>Inference with detect.py</summary>
+```bash
+python detect.py --weights [weight file] --source [video] --save-txt
+```
 e.g.
-python detect_video.py --weights runs/splice_merge_0313_2024_finetune.pt --source ../video_samples/vb_samp146.mov --save-txt
-
+```bash
+python detect.py --weights runs/weights/best.pt --source ../video_samples/vb_samp146.mov --save-txt
+```
 </details>
+
+
+<details open>
+<summary>Weights</summary>
+Model weights can be downloaded in osf.gov soon.
+</details>
+
+
 
 
 
