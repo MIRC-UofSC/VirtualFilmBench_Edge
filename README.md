@@ -27,6 +27,7 @@ conda activate virtualfilmbench_edge
 
 <details open>
 <summary>Inference with detect.py</summary>
+
 ```bash
 python detect.py --weights [weight file] --source [video] --save-txt
 ```
