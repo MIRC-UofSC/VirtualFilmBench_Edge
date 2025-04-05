@@ -15,6 +15,10 @@ cd VirtualFilmBench_Edge
 pip install -r requirements.txt  # install
 ```
 
+or
+conda env create -f environment.yml
+conda activate virtualfilmbench_edge
+
 </details>
 
 
